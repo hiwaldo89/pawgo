@@ -14,17 +14,6 @@ type ModalProps = {
 
 const Modal: React.FC = () => {
   const { modalType, closeModal } = useModal();
-  // useEffect(() => {
-  //   document.body.style.overflow = isOpen ? "hidden" : "";
-
-  //   return () => {
-  //     document.body.style.overflow = "";
-  //   };
-  // }, [isOpen]);
-
-  // if (!isOpen) {
-  //   return null;
-  // }
 
   useEffect(() => {
     document.body.style.overflow = !!modalType ? "hidden" : "";

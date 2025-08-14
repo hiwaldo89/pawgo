@@ -9,6 +9,7 @@ import Modal from "./components/Modal";
 import { AdoptionRequestsProvider } from "./hooks/useAdoptionRequest";
 import { ModalProvider } from "./hooks/useModal";
 import "./globals.css";
+import { Suspense } from "react";
 
 const poppinsFont = Poppins({
   variable: "--font-poppins",
@@ -45,13 +46,15 @@ export default function RootLayout({
         <AuthProvider>
           <FavoritesProvider>
             <AdoptionRequestsProvider>
-              <ModalProvider>
-                <Header />
-                {children}
-                <Footer />
-                <Modal />
-                {/* <DefaultLayout>{children}</DefaultLayout> */}
-              </ModalProvider>
+              <Suspense>
+                <ModalProvider>
+                  <Header />
+                  {children}
+                  <Footer />
+
+                  <Modal />
+                </ModalProvider>
+              </Suspense>
             </AdoptionRequestsProvider>
           </FavoritesProvider>
         </AuthProvider>

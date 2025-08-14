@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, Suspense } from "react";
 import Container from "./components/Container";
 import Filters from "./components/Filters";
 import dogs from "@/app/data/dogs.json";
@@ -27,46 +27,48 @@ export default function Home() {
   }, [page]);
 
   return (
-    <main>
-      <Container ref={gridRef} className="mt-[69px] mb-[100px]">
-        <Filters />
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-[20px] gap-y-[30px] my-[30px]">
-          {results.map((result) => (
-            <DogCard
-              key={`dog-${result.id}`}
-              dog={{
-                id: result.id,
-                url: `/mascotas/${result.id}`,
-                image: result.picture,
-                name: result.name,
-                years: result.years,
-                gender: result.gender,
-                breed: result.breed,
-                location: result.location,
-              }}
-              onClick={() => {
-                setQueryParam("id", result.id.toString());
-                openModal("petDetails");
-              }}
-            />
-          ))}
-        </div>
-        <Pagination
-          totalPages={totalPages}
-          current={page}
-          onPrev={() => {
-            setPage((prevPage) => Math.max(prevPage - 1, 1));
-          }}
-          onNext={() => {
-            setPage((prevPage) => Math.min(prevPage + 1, totalPages));
-          }}
-          onPageClick={(page) => {
-            setPage(page);
-          }}
-          className="justify-end"
-        />
-      </Container>
-      <RecentArticles />
-    </main>
+    <Suspense>
+      <main>
+        <Container ref={gridRef} className="mt-[69px] mb-[100px]">
+          <Filters />
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-[20px] gap-y-[30px] my-[30px]">
+            {results.map((result) => (
+              <DogCard
+                key={`dog-${result.id}`}
+                dog={{
+                  id: result.id,
+                  url: `/mascotas/${result.id}`,
+                  image: result.picture,
+                  name: result.name,
+                  years: result.years,
+                  gender: result.gender,
+                  breed: result.breed,
+                  location: result.location,
+                }}
+                onClick={() => {
+                  setQueryParam("id", result.id.toString());
+                  openModal("petDetails");
+                }}
+              />
+            ))}
+          </div>
+          <Pagination
+            totalPages={totalPages}
+            current={page}
+            onPrev={() => {
+              setPage((prevPage) => Math.max(prevPage - 1, 1));
+            }}
+            onNext={() => {
+              setPage((prevPage) => Math.min(prevPage + 1, totalPages));
+            }}
+            onPageClick={(page) => {
+              setPage(page);
+            }}
+            className="justify-end"
+          />
+        </Container>
+        <RecentArticles />
+      </main>
+    </Suspense>
   );
 }

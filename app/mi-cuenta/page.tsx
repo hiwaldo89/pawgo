@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import cn from "classnames";
 import { useAuth } from "../hooks/useAuth";
 import RecentArticles from "../components/RecentArticles";
@@ -53,44 +53,48 @@ const Account = () => {
     return null;
   }
   return (
-    <div className="mt-[50px] lg:mt-[116px]">
-      <Container className="mb-[100px]">
-        <div className="grid grid-cols-12 gap-[20px]">
-          <div className="col-span-12 md:col-span-3">
-            {sections.map((section) => (
+    <Suspense>
+      <div className="mt-[50px] lg:mt-[116px]">
+        <Container className="mb-[100px]">
+          <div className="grid grid-cols-12 gap-[20px]">
+            <div className="col-span-12 md:col-span-3">
+              {sections.map((section) => (
+                <button
+                  key={section.id}
+                  className={cn(
+                    "w-full px-[15px] py-[8px] subheading2 rounded-[9px] cursor-pointer mb-[10px] border",
+                    {
+                      "bg-white": activeSection !== section.id,
+                      "bg-lavander text-white": activeSection === section.id,
+                    }
+                  )}
+                  onClick={() => {
+                    setActiveSection(section.id);
+                  }}
+                >
+                  {section.text}
+                </button>
+              ))}
               <button
-                key={section.id}
-                className={cn(
-                  "w-full px-[15px] py-[8px] subheading2 rounded-[9px] cursor-pointer mb-[10px] border",
-                  {
-                    "bg-white": activeSection !== section.id,
-                    "bg-lavander text-white": activeSection === section.id,
-                  }
-                )}
-                onClick={() => {
-                  setActiveSection(section.id);
-                }}
-              >
-                {section.text}
-              </button>
-            ))}
-            <button
-              className="
+                className="
             w-full px-[15px] py-[8px] subheading2 rounded-[9px] cursor-pointer mb-[10px] border bg-white"
-              onClick={logout}
-            >
-              Cerrar sesión
-            </button>
-          </div>
-          <div className="col-span-12 md:col-span-9">
-            <div className="bg-white rounded-[9px] px-[32px] py-[25px]">
-              <AccountSection section={activeSection} />
+                onClick={logout}
+              >
+                Cerrar sesión
+              </button>
+            </div>
+            <div className="col-span-12 md:col-span-9">
+              <div className="bg-white rounded-[9px] px-[32px] py-[25px]">
+                <Suspense>
+                  <AccountSection section={activeSection} />
+                </Suspense>
+              </div>
             </div>
           </div>
-        </div>
-      </Container>
-      <RecentArticles />
-    </div>
+        </Container>
+        <RecentArticles />
+      </div>
+    </Suspense>
   );
 };
 
