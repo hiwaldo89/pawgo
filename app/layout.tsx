@@ -1,14 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins, Inter } from "next/font/google";
+import cn from "classnames";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { FavoritesProvider } from "./hooks/useFavorites";
+import { AuthProvider } from "./hooks/useAuth";
+import Modal from "./components/Modal";
+import { AdoptionRequestsProvider } from "./hooks/useAdoptionRequest";
+import { ModalProvider } from "./hooks/useModal";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppinsFont = Poppins({
+  variable: "--font-poppins",
+  weight: ["700", "600"],
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const interFont = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -23,11 +32,29 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es-MX">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={cn(
+          interFont.variable,
+          poppinsFont.variable,
+          "antialiased",
+          "bg-background",
+          "text-gray-primary"
+        )}
       >
-        {children}
+        <AuthProvider>
+          <FavoritesProvider>
+            <AdoptionRequestsProvider>
+              <ModalProvider>
+                <Header />
+                {children}
+                <Footer />
+                <Modal />
+                {/* <DefaultLayout>{children}</DefaultLayout> */}
+              </ModalProvider>
+            </AdoptionRequestsProvider>
+          </FavoritesProvider>
+        </AuthProvider>
       </body>
     </html>
   );

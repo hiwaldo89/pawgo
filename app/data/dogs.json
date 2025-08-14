@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Labrador Retriever",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=1"
+  },
+  {
+    "id": 2,
+    "name": "Max",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=2"
+  },
+  {
+    "id": 3,
+    "name": "Canela",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Golden Retriever",
+    "location": "Ciudad de México, CDMX",
+    "picture": "https://placedog.net/500/280?id=3"
+  },
+  {
+    "id": 4,
+    "name": "Rocky",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Bulldog Inglés",
+    "location": "Puebla, Puebla",
+    "picture": "https://placedog.net/500/280?id=4"
+  },
+  {
+    "id": 5,
+    "name": "Nala",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Chihuahua",
+    "location": "Tijuana, Baja California",
+    "picture": "https://placedog.net/500/280?id=5"
+  },
+  {
+    "id": 6,
+    "name": "Thor",
+    "years": 6,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=6"
+  },
+  {
+    "id": 7,
+    "name": "Lola",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Mérida, Yucatán",
+    "picture": "https://placedog.net/500/280?id=7"
+  },
+  {
+    "id": 8,
+    "name": "Simba",
+    "years": 2,
+    "gender": "Macho",
+    "breed": "Husky Siberiano",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=8"
+  },
+  {
+    "id": 9,
+    "name": "Maya",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=9"
+  },
+  {
+    "id": 10,
+    "name": "Oso",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Boxer",
+    "location": "Saltillo, Coahuila",
+    "picture": "https://placedog.net/500/280?id=10"
+  },
+  {
+    "id": 11,
+    "name": "Lili",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Shih Tzu",
+    "location": "Chihuahua, Chihuahua",
+    "picture": "https://placedog.net/500/280?id=11"
+  },
+  {
+    "id": 12,
+    "name": "Zeus",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Rottweiler",
+    "location": "Veracruz, Veracruz",
+    "picture": "https://placedog.net/500/280?id=12"
+  },
+  {
+    "id": 13,
+    "name": "Kira",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Cocker Spaniel",
+    "location": "Aguascalientes, Aguascalientes",
+    "picture": "https://placedog.net/500/280?id=13"
+  },
+  {
+    "id": 14,
+    "name": "Toby",
+    "years": 1,
+    "gender": "Macho",
+    "breed": "Border Collie",
+    "location": "Toluca, Estado de México",
+    "picture": "https://placedog.net/500/280?id=14"
+  },
+  {
+    "id": 15,
+    "name": "Mimi",
+    "years": 5,
+    "gender": "Hembra",
+    "breed": "Yorkshire Terrier",
+    "location": "Morelia, Michoacán",
+    "picture": "https://placedog.net/500/280?id=15"
+  },
+  {
+    "id": 16,
+    "name": "Jack",
+    "years": 2,
+    "gender": "Macho",
+    "breed": "Dachshund",
+    "location": "Culiacán, Sinaloa",
+    "picture": "https://placedog.net/500/280?id=16"
+  },
+  {
+    "id": 17,
+    "name": "Sasha",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Mastín Napolitano",
+    "location": "Hermosillo, Sonora",
+    "picture": "https://placedog.net/500/280?id=17"
+  },
+  {
+    "id": 18,
+    "name": "Bobby",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Shar Pei",
+    "location": "Zacatecas, Zacatecas",
+    "picture": "https://placedog.net/500/280?id=18"
+  },
+  {
+    "id": 19,
+    "name": "Dulce",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Boston Terrier",
+    "location": "Chilpancingo, Guerrero",
+    "picture": "https://placedog.net/500/280?id=19"
+  },
+  {
+    "id": 20,
+    "name": "Rex",
+    "years": 6,
+    "gender": "Macho",
+    "breed": "Weimaraner",
+    "location": "Tuxtla Gutiérrez, Chiapas",
+    "picture": "https://placedog.net/500/280?id=20"
+  },
+  {
+    "id": 21,
+    "name": "Moka",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Samoyedo",
+    "location": "La Paz, Baja California Sur",
+    "picture": "https://placedog.net/500/280?id=21"
+  },
+  {
+    "id": 22,
+    "name": "Leo",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Akita Inu",
+    "location": "Campeche, Campeche",
+    "picture": "https://placedog.net/500/280?id=22"
+  },
+  {
+    "id": 23,
+    "name": "Gala",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Shar Pei",
+    "location": "Tepic, Nayarit",
+    "picture": "https://placedog.net/500/280?id=23"
+  },
+  {
+    "id": 24,
+    "name": "Chester",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Pitbull",
+    "location": "Reynosa, Tamaulipas",
+    "picture": "https://placedog.net/500/280?id=24"
+  },
+  {
+    "id": 25,
+    "name": "Kika",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Bulldog Francés",
+    "location": "Matamoros, Tamaulipas",
+    "picture": "https://placedog.net/500/280?id=25"
+  },
+  {
+    "id": 26,
+    "name": "Bingo",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Jack Russell Terrier",
+    "location": "Nuevo Laredo, Tamaulipas",
+    "picture": "https://placedog.net/500/280?id=26"
+  },
+  {
+    "id": 27,
+    "name": "Frida",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Labrador Retriever",
+    "location": "Irapuato, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=27"
+  },
+  {
+    "id": 28,
+    "name": "Paco",
+    "years": 6,
+    "gender": "Macho",
+    "breed": "Chow Chow",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=28"
+  },
+  {
+    "id": 29,
+    "name": "Nina",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Salchicha",
+    "location": "Ciudad Victoria, Tamaulipas",
+    "picture": "https://placedog.net/500/280?id=29"
+  },
+  {
+    "id": 30,
+    "name": "Fido",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Pastor Belga",
+    "location": "Toluca, Estado de México",
+    "picture": "https://placedog.net/500/280?id=30"
+  },
+  {
+    "id": 31,
+    "name": "Chispa",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Shiba Inu",
+    "location": "Cuernavaca, Morelos",
+    "picture": "https://placedog.net/500/280?id=31"
+  },
+  {
+    "id": 32,
+    "name": "Bruno",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Bichón Frisé",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=32"
+  },
+  {
+    "id": 33,
+    "name": "Mila",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Setter Inglés",
+    "location": "San Luis Potosí, San Luis Potosí",
+    "picture": "https://placedog.net/500/280?id=33"
+  },
+  {
+    "id": 34,
+    "name": "Rocko",
+    "years": 1,
+    "gender": "Macho",
+    "breed": "Dogo Argentino",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=34"
+  },
+  {
+    "id": 35,
+    "name": "Lana",
+    "years": 5,
+    "gender": "Hembra",
+    "breed": "Corgi",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=35"
+  },
+  {
+    "id": 36,
+    "name": "Tito",
+    "years": 2,
+    "gender": "Macho",
+    "breed": "Pastor Australiano",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=36"
+  },
+  {
+    "id": 37,
+    "name": "Chloe",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Galgo",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=37"
+  },
+  {
+    "id": 38,
+    "name": "Zephyr",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Mastín Inglés",
+    "location": "Zacatecas, Zacatecas",
+    "picture": "https://placedog.net/500/280?id=38"
+  },
+  {
+    "id": 39,
+    "name": "Daisy",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Bulldog Americano",
+    "location": "Puebla, Puebla",
+    "picture": "https://placedog.net/500/280?id=39"
+  },
+  {
+    "id": 40,
+    "name": "Rudy",
+    "years": 6,
+    "gender": "Macho",
+    "breed": "Terranova",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=40"
+  },
+  {
+    "id": 41,
+    "name": "Suri",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Cavalier King Charles",
+    "location": "Chihuahua, Chihuahua",
+    "picture": "https://placedog.net/500/280?id=41"
+  },
+  {
+    "id": 42,
+    "name": "Axel",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Whippet",
+    "location": "Veracruz, Veracruz",
+    "picture": "https://placedog.net/500/280?id=42"
+  },
+  {
+    "id": 43,
+    "name": "Bella",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Setter Irlandés",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=43"
+  },
+  {
+    "id": 44,
+    "name": "Gus",
+    "years": 1,
+    "gender": "Macho",
+    "breed": "Shar Pei",
+    "location": "Morelia, Michoacán",
+    "picture": "https://placedog.net/500/280?id=44"
+  },
+  {
+    "id": 45,
+    "name": "Poppy",
+    "years": 5,
+    "gender": "Hembra",
+    "breed": "Chow Chow",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=45"
+  },
+  {
+    "id": 46,
+    "name": "Jasper",
+    "years": 2,
+    "gender": "Macho",
+    "breed": "Labrador Retriever",
+    "location": "Tijuana, Baja California",
+    "picture": "https://placedog.net/500/280?id=46"
+  },
+  {
+    "id": 47,
+    "name": "Ruby",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=47"
+  },
+  {
+    "id": 48,
+    "name": "Hunter",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "Saltillo, Coahuila",
+    "picture": "https://placedog.net/500/280?id=48"
+  },
+  {
+    "id": 49,
+    "name": "Maggie",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Pomerania",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=49"
+  },
+  {
+    "id": 50,
+    "name": "Leo",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=50"
+  },
+  {
+    "id": 51,
+    "name": "Zara",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Cocker Spaniel",
+    "location": "Ciudad de México, CDMX",
+    "picture": "https://placedog.net/500/280?id=51"
+  },
+  {
+    "id": 52,
+    "name": "Simba",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Husky Siberiano",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=52"
+  },
+  {
+    "id": 53,
+    "name": "Tina",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "Toluca, Estado de México",
+    "picture": "https://placedog.net/500/280?id=53"
+  },
+  {
+    "id": 54,
+    "name": "Duke",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Bulldog Inglés",
+    "location": "Puebla, Puebla",
+    "picture": "https://placedog.net/500/280?id=54"
+  },
+  {
+    "id": 55,
+    "name": "Mia",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Chihuahua",
+    "location": "Tijuana, Baja California",
+    "picture": "https://placedog.net/500/280?id=55"
+  },
+  {
+    "id": 56,
+    "name": "Oscar",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Boxer",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=56"
+  },
+  {
+    "id": 57,
+    "name": "Lola",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=57"
+  },
+  {
+    "id": 58,
+    "name": "Bobby",
+    "years": 2,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=58"
+  },
+  {
+    "id": 59,
+    "name": "Maya",
+    "years": 5,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "Saltillo, Coahuila",
+    "picture": "https://placedog.net/500/280?id=59"
+  },
+  {
+    "id": 60,
+    "name": "Rex",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=60"
+  },
+  {
+    "id": 61,
+    "name": "Dulce",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Golden Retriever",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=61"
+  },
+  {
+    "id": 62,
+    "name": "Rocky",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Bulldog Inglés",
+    "location": "Ciudad de México, CDMX",
+    "picture": "https://placedog.net/500/280?id=62"
+  },
+  {
+    "id": 63,
+    "name": "Susi",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Chihuahua",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=63"
+  },
+  {
+    "id": 64,
+    "name": "Thor",
+    "years": 6,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "Tijuana, Baja California",
+    "picture": "https://placedog.net/500/280?id=64"
+  },
+  {
+    "id": 65,
+    "name": "Mila",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=65"
+  },
+  {
+    "id": 66,
+    "name": "Leo",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Husky Siberiano",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=66"
+  },
+  {
+    "id": 67,
+    "name": "Luna",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "Saltillo, Coahuila",
+    "picture": "https://placedog.net/500/280?id=67"
+  },
+  {
+    "id": 68,
+    "name": "Max",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=68"
+  },
+  {
+    "id": 69,
+    "name": "Nala",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Golden Retriever",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=69"
+  },
+  {
+    "id": 70,
+    "name": "Rocko",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Bulldog Inglés",
+    "location": "Ciudad de México, CDMX",
+    "picture": "https://placedog.net/500/280?id=70"
+  },
+  {
+    "id": 71,
+    "name": "Daisy",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=71"
+  },
+  {
+    "id": 72,
+    "name": "Rudy",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=72"
+  },
+  {
+    "id": 73,
+    "name": "Mia",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=73"
+  },
+  {
+    "id": 74,
+    "name": "Bobby",
+    "years": 6,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "Saltillo, Coahuila",
+    "picture": "https://placedog.net/500/280?id=74"
+  },
+  {
+    "id": 75,
+    "name": "Lili",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Golden Retriever",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=75"
+  },
+  {
+    "id": 76,
+    "name": "Zeus",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Bulldog Inglés",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=76"
+  },
+  {
+    "id": 77,
+    "name": "Kira",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Ciudad de México, CDMX",
+    "picture": "https://placedog.net/500/280?id=77"
+  },
+  {
+    "id": 78,
+    "name": "Toby",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=78"
+  },
+  {
+    "id": 79,
+    "name": "Mimi",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=79"
+  },
+  {
+    "id": 80,
+    "name": "Jack",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=80"
+  },
+  {
+    "id": 81,
+    "name": "Sasha",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Golden Retriever",
+    "location": "Saltillo, Coahuila",
+    "picture": "https://placedog.net/500/280?id=81"
+  },
+  {
+    "id": 82,
+    "name": "Bobby",
+    "years": 1,
+    "gender": "Macho",
+    "breed": "Bulldog Inglés",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=82"
+  },
+  {
+    "id": 83,
+    "name": "Dulce",
+    "years": 5,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=83"
+  },
+  {
+    "id": 84,
+    "name": "Rex",
+    "years": 2,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "Ciudad de México, CDMX",
+    "picture": "https://placedog.net/500/280?id=84"
+  },
+  {
+    "id": 85,
+    "name": "Moka",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=85"
+  },
+  {
+    "id": 86,
+    "name": "Leo",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=86"
+  },
+  {
+    "id": 87,
+    "name": "Gala",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Golden Retriever",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=87"
+  },
+  {
+    "id": 88,
+    "name": "Chester",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Bulldog Inglés",
+    "location": "Saltillo, Coahuila",
+    "picture": "https://placedog.net/500/280?id=88"
+  },
+  {
+    "id": 89,
+    "name": "Kika",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=89"
+  },
+  {
+    "id": 90,
+    "name": "Bingo",
+    "years": 4,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=90"
+  },
+  {
+    "id": 91,
+    "name": "Frida",
+    "years": 3,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "Ciudad de México, CDMX",
+    "picture": "https://placedog.net/500/280?id=91"
+  },
+  {
+    "id": 92,
+    "name": "Paco",
+    "years": 1,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=92"
+  },
+  {
+    "id": 93,
+    "name": "Nina",
+    "years": 5,
+    "gender": "Hembra",
+    "breed": "Golden Retriever",
+    "location": "Cancún, Quintana Roo",
+    "picture": "https://placedog.net/500/280?id=93"
+  },
+  {
+    "id": 94,
+    "name": "Fido",
+    "years": 2,
+    "gender": "Macho",
+    "breed": "Bulldog Inglés",
+    "location": "León, Guanajuato",
+    "picture": "https://placedog.net/500/280?id=94"
+  },
+  {
+    "id": 95,
+    "name": "Chispa",
+    "years": 4,
+    "gender": "Hembra",
+    "breed": "Beagle",
+    "location": "Saltillo, Coahuila",
+    "picture": "https://placedog.net/500/280?id=95"
+  },
+  {
+    "id": 96,
+    "name": "Bruno",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Dálmata",
+    "location": "Querétaro, Querétaro",
+    "picture": "https://placedog.net/500/280?id=96"
+  },
+  {
+    "id": 97,
+    "name": "Mila",
+    "years": 1,
+    "gender": "Hembra",
+    "breed": "Pug",
+    "location": "Monterrey, Nuevo León",
+    "picture": "https://placedog.net/500/280?id=97"
+  },
+  {
+    "id": 98,
+    "name": "Rocko",
+    "years": 5,
+    "gender": "Macho",
+    "breed": "Pastor Alemán",
+    "location": "Ciudad de México, CDMX",
+    "picture": "https://placedog.net/500/280?id=98"
+  },
+  {
+    "id": 99,
+    "name": "Lana",
+    "years": 2,
+    "gender": "Hembra",
+    "breed": "Golden Retriever",
+    "location": "Guadalajara, Jalisco",
+    "picture": "https://placedog.net/500/280?id=99"
+  },
+  {
+    "id": 100,
+    "name": "Bruno",
+    "years": 3,
+    "gender": "Macho",
+    "breed": "Bichón Frisé",
+    "location": "Toluca, Estado de México",
+    "picture": "https://placedog.net/500/280?id=100"
+  }
+]
